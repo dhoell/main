@@ -1,16 +1,38 @@
 # Changelog
 
-## 1.0.0 (2023-02-04)
-
-
-### Features
-
-* Add code-of-conduct ([#39](https://github.com/ublue-os/base/issues/39)) ([aab8078](https://github.com/ublue-os/base/commit/aab8078cfdc7d2354e057a0ca4771d3a53d2df4c))
-* add conventional commit linting and release notes generator ([b7820b4](https://github.com/ublue-os/base/commit/b7820b4ba312ca939d0dc977ed9f6a08d135324b))
-* tag PR builds independently from matrix.version, latest, and stable ([b022183](https://github.com/ublue-os/base/commit/b02218386235e6d40a11a48b5b1171e9acf8d1eb))
+## [1.1.3](https://github.com/ublue-os/main/compare/v1.1.2...v1.1.3) (2023-04-07)
 
 
 ### Bug Fixes
 
-* Don't generate an image when README.md is updated ([#36](https://github.com/ublue-os/base/issues/36)) ([8c170cf](https://github.com/ublue-os/base/commit/8c170cfe89dd306eec0940f4dc50ed245c94bc2b))
-* only generate date tag for main branch ([94aa5bb](https://github.com/ublue-os/base/commit/94aa5bb8df2aac0985d4c9422b19b0c03a3f25b0))
+* kick off ISO build ([#119](https://github.com/ublue-os/main/issues/119)) ([95a5651](https://github.com/ublue-os/main/commit/95a5651a205e9839f76d0fbcd5bcdf7c3351ded9))
+
+## [1.1.2](https://github.com/ublue-os/main/compare/v1.1.1...v1.1.2) (2023-04-07)
+
+
+### Bug Fixes
+
+* removed the matrix ([#116](https://github.com/ublue-os/main/issues/116)) ([89b1a5e](https://github.com/ublue-os/main/commit/89b1a5e8c23b415b0cf5e49256721bb9252bca1d))
+* upgrade container to 38 ([#118](https://github.com/ublue-os/main/issues/118)) ([cf607b4](https://github.com/ublue-os/main/commit/cf607b4627082b25ea81e511ad96c2ef70ef66b3))
+
+## [1.1.1](https://github.com/ublue-os/main/compare/v1.1.0...v1.1.1) (2023-04-06)
+
+
+### Bug Fixes
+
+* kick off an iso build ([#114](https://github.com/ublue-os/main/issues/114)) ([1ce2350](https://github.com/ublue-os/main/commit/1ce235014932000625c47f6a89319647e37a190e))
+
+## [1.1.0](https://github.com/ublue-os/main/compare/v1.0.1...v1.1.0) (2023-04-06)
+
+
+### Features
+
+* add intel-media-driver ([#98](https://github.com/ublue-os/main/issues/98)) ([9d7f2e2](https://github.com/ublue-os/main/commit/9d7f2e26d39d90eaf38449f8a7bcfda97142f7b3))
+* move to a unified ISO for all images ([#109](https://github.com/ublue-os/main/issues/109)) ([9c52e30](https://github.com/ublue-os/main/commit/9c52e302741968a0d290a70fb863464bd41fa970))
+
+## [1.0.1](https://github.com/ublue-os/main/compare/v1.0.0...v1.0.1) (2023-04-02)
+
+
+### Bug Fixes
+
+* delete changelog to unstick release-please action ([#100](https://github.com/ublue-os/main/issues/100)) ([6dc1d80](https://github.com/ublue-os/main/commit/6dc1d808d8cdb33e912926a587c843b3a9d9c993))
