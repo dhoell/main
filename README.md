@@ -2,7 +2,7 @@
 
 [![build-ublue](https://github.com/ublue-os/main/actions/workflows/build.yml/badge.svg)](https://github.com/ublue-os/main/actions/workflows/build.yml)
 
-A common main image for all other Ublue images.
+A common main image for all other uBlue images, with minimal (but important) adjustments to Fedora.
 
 1. [Features](#Features)
 1. [Tips and Tricks](#Tips-and-Tricks)
@@ -13,7 +13,7 @@ A common main image for all other Ublue images.
 
 ## What is this?
 
-You should be familiar with [immutable desktops](https://silverblue.fedoraproject.org/about). These are Fedora-ostree images that have been modified with the following quality of life features: 
+You should be familiar with [immutable desktops](https://silverblue.fedoraproject.org/about). These are Fedora ostree images that have been modified with the following quality of life features:
 
 ## Features
 
@@ -22,6 +22,7 @@ You should be familiar with [immutable desktops](https://silverblue.fedoraprojec
   - Hardware acceleration and codecs
   - `distrobox` for terminal CLI and user package installation
   - A selection of [udev rules and service units](https://github.com/ublue-os/config)
+  - [libratbag](https://github.com/libratbag/libratbag), to configure supported mice via [piper](https://github.com/libratbag/piper)
   - Various other tools: check out the [complete list of packages](packages.json)
 - Sets automatic staging of updates for the system
 - Sets flatpaks to update twice a day
@@ -42,6 +43,7 @@ ublue-os/base-main is also very well suited for servers, and users are expected 
 
 1. [Download the image you want](https://github.com/ublue-os/main/releases)
 1. [Follow these instructions](https://ublue.it/installation)
+1. [File an issue](https://github.com/ublue-os/main/issues) if you find a problem
 
 <details>
 <summary>To switch to another Image</summary>
